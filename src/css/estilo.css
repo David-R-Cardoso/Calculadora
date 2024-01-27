@@ -101,7 +101,6 @@ body.dark, .dark:focus{
 }
 body.dark .label{
     background-color: gray;
-
 }
 body.dark .label .ball{
     background-color: black;
