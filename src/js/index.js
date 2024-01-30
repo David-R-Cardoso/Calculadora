@@ -18,7 +18,11 @@ function Calc(){
     if(result){
         var t = document.getElementById('resultado').innerHTML = eval(result);
 
-        document.getElementById('resultado').innerHTML = Math.trunc(t);
+        if(Number.isInteger(t)){
+            document.getElementById('resultado').innerHTML = (t)
+        }else{
+            document.getElementById('resultado').innerHTML = (t).toFixed(2)
+        }
     }
     
     if(result == 0){
