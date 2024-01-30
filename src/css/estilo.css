@@ -59,8 +59,8 @@ body{
     font-size: 25px;
     color: black;
     text-align: right;
-    /* border: 1px solid #000; */
-    box-shadow:inset 0px 0px 10px black;
+    box-shadow:inset 4px 4px 5px rgba(0, 0, 0, 0.534);
+
 
 }
 
